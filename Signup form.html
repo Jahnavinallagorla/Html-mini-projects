@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <style>
+        select,input,button,textarea{
+            width: 100%;
+           }
+    </style>
+</head>
+<body>
+    <form>
+    <h2>Please signup here !!!</h2>
+    <label>Enter UserName:</label>
+    <input name="username" type="text"  id="username"value="">
+    <label>Enter Password:</label>
+    <input name="Password" type="password" id="password"value="">
+    <label>Confirm Password:</label>
+    <input name="c password" type="password"  id="c password"value="">
+    <label>Select Gender:</label><br>
+    <select>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="others">Others</option>
+    </select>
+    <label>Enter Mobile Number:</label>
+    <input name="number" type="number"  id="number"value="">
+    <label>Enter DOB:</label><br>
+    <input name="dob" type="date"  id="dob" value="">
+    <label>Enter Address:</label><br>
+    <textarea name="address" type="text"  id="address" value=""></textarea>
+    <label>Select Qualification:</label>
+    <select id="Qualification" name="qualification"  form="qualificationform">
+        <option value="Bachelors">Bachelors</option>
+        <option value="Masters">Masters</option>
+        <option value="PHD">PHD</option>
+    </select>
+    <label>Choose Skills:</label>
+    <select name="Skills">
+        <option value="Java">Java</option>
+        <option value="HTML">HTML</option>
+        <option value="Python">Python</option>
+        <option value="JavaScript">JavaScript</option>
+    </select>
+    <label>Preferred Shift:</label>
+    <select>
+        <option value="DayShift">DayShift</option>
+        <option value="NightShift">NightShift</option>
+        <option value="Day/NightShift">Day/NightShift</option>
+    </select>
+    <label>Upload your Resume:</label>
+    <input name="file" id="file" type="file" value="choosefile"><br><br>
+    <button>Register</button><br><br>
+    <button>Reset</button>
+</form>
+</body>
+</html>
+
+
+
+ 
+
+
+
+ 
