@@ -1,2 +1,2 @@
 # Html-mini-projects
-Html tasks
+Html and css tasks
